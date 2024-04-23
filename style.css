@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+/* Main */
+.main{
+    border: 0.3rem green solid;
+    background: lightgreen;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+}
+/* Header */
+.header{
+    border: 0.3rem blue solid;
+    background: lightblue;
+    display: flex;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.header > div{
+    border: 0.3rem rgb(44, 29, 1) solid;
+    background: coral;
+    width: 20.2rem;
+    height: 4rem;
+    margin: 0.3rem;
+}
+
+.headerBox2{
+    padding: 0.4rem;
+    display: flex;
+}
+
+.headerBox2 > div{
+    border: 0.2rem red solid;
+    background: rgb(185, 141, 141);
+    height: 2.8rem;
+    width: 10rem;
+}
+
+/* Middle */
+
+.middleContainer{
+    display: flex;
+    background:lightgreen;
+}
+
+.middleRight{
+    background: lightgreen;
+}
+
+.middle1{
+    border: 0.3rem solid rgb(68, 44, 37);
+    background: rgb(199, 144, 130);
+    height: 10rem;
+    width: 31.75rem;
+}
+
+.middle2, .middle3{
+    border: 0.3rem solid rgb(68, 44, 37);
+    background: rgb(199, 144, 130);
+    height: 4.5rem;
+    width: 31.75rem;
+    margin-left: 1rem;
+}
+.middle2{
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+
+.footer{
+    border: 0.3rem blue solid;
+    background: lightblue;
+    display: flex;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+.outerFooter{
+    border: 0.3rem rgb(134, 94, 228) solid;
+    background: #c0a8e7;
+    width: 20rem;
+    height: 4rem;
+    margin: 0.3rem;
+}
+
+.innerFooter{
+    border: 0.3rem rgb(44, 29, 1) solid;
+    background: coral;
+    width: 10rem;
+    height: 4rem;
+    margin: 0.3rem;
+}
